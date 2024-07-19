@@ -1,6 +1,4 @@
-# Simple Text Message Tool
-
-# Overview
+# MESSAGER
 
 sms.sh is a command-line script that allows users to manage text messages. With this tool, you can send, remove, and search for text messages stored locally on your system. The script is designed to be user-friendly and provides a variety of functionalities through different command-line arguments.
 
