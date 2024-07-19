@@ -44,5 +44,7 @@ Note: The script will prompt for confirmation before deleting messages.
 
 # Additional Information
 The .messages directory and associated files are created as needed.
+
 Ensure that .messages is not hardcoded and the script works if moved to another directory.
+
 Use ls -al to view hidden directories and files.
