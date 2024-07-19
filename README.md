@@ -11,11 +11,12 @@ Search: Searches for messages based on the sender, message content, or destinati
 
 # Command Usage
 
+**./sms.sh help
 Displays a list of all available commands and their descriptions:
-./sms.sh help
 
+**./sms.sh send "MyNumber" "DestinationNumber" "Message"
 Sends a text message from MyNumber to DestinationNumber: 
-./sms.sh send "MyNumber" "DestinationNumber" "Message"
+
 
 Removes all messages associated with Number1 after user confirmation:
 ./sms.sh remove "Number1"
