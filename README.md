@@ -13,23 +13,17 @@ Search: Searches for messages based on the sender, message content, or destinati
 
 # Command Usage
 
-# Help
 Displays a list of all available commands and their descriptions:
 ./sms.sh help
 
-# Send
 Sends a text message from MyNumber to DestinationNumber: 
 ./sms.sh send "MyNumber" "DestinationNumber" "Message"
 
-# Remove
 Removes all messages associated with Number1 after user confirmation:
 ./sms.sh remove "Number1"
 
-
-# Search
 Searches for messages from FromNumber. Optionally, search by message content or destination number:
 ./sms.sh search "FromNumber" [--message] [--number]
-
 
 # Data Storage
 
@@ -37,13 +31,6 @@ All message data is stored in the .messages directory in the same location as th
 
 Outgoing: o;*message*;@DestinationNumber
 Incoming: i;*message*;@SenderNumber
-
-# Examples
-Sending Messages
-./sms.sh send 123 456 "You are nice."
-./sms.sh send 123 456 "Do you like me?"
-./sms.sh send 456 123 "I like you."
-./sms.sh send 123 789 "You are nice. Do you like me?"
 
 # Searching Messages
 
