@@ -22,25 +22,15 @@ Search: Searches for messages based on the sender, message content, or destinati
 
 # Data Storage
 
-All message data is stored in the .messages directory in the same location as the sms.sh script. Each phone number has a corresponding file where messages are stored. Messages are stored as follows:
+All message data is stored in the .messages directory in the same location as the sms.sh script. 
+
+Each phone number has a corresponding file where messages are stored. 
+
+Messages are stored as follows:
 
 Outgoing: o;*message*;@DestinationNumber
+
 Incoming: i;*message*;@SenderNumber
-
-# Searching Messages
-
-Search by sender:
-./sms.sh search 123
-
-Search by message content:
-./sms.sh search you --message
-
-# Removing Messages
-./sms.sh remove 123
-Note: The script will prompt for confirmation before deleting messages.
-
-# Help Command
-./sms.sh help
 
 # Additional Information
 The .messages directory and associated files are created as needed.
